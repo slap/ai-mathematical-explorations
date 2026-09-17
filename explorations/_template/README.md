@@ -5,7 +5,7 @@
 **Area:** \
 **Date:** \
 **AI system:** \
-**Curator:** Santiago Laplagne
+**Published by:** Santiago Laplagne
 <!-- meta:end -->
 
 <!--

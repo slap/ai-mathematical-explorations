@@ -25,7 +25,7 @@ STATUS = {
     "superseded": ("⚪", "Superseded"),
 }
 
-REQUIRED_KEYS = ("id", "title", "date", "area", "status", "ai_system", "curator")
+REQUIRED_KEYS = ("id", "title", "date", "area", "status", "ai_system", "published_by")
 REQUIRED_FILES = ("README.md", "exploration.pdf", "source.tex", "ai-output.md")
 
 problems = []
@@ -70,7 +70,7 @@ def header_block(meta):
         f"**Area:** {meta['area']} \\",
         f"**Date:** {meta['date']} \\",
         f"**AI system:** {meta['ai_system']}{interface} \\",
-        f"**Curator:** {meta['curator']}",
+        f"**Published by:** {meta['published_by']}",
     ]
     for key, text in (("supersedes", "Supersedes"), ("superseded_by", "Superseded by")):
         if meta.get(key):

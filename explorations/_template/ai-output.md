@@ -8,7 +8,7 @@
 -->
 
 Everything below the line is reproduced as produced, unedited. *(If the conversation was not
-in English, say so, and mark any translation as added by the curator.)*
+in English, say so, and mark any translation as added by me.)*
 
 **Session.** Model, provider, interface, date.
 

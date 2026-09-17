@@ -1,6 +1,6 @@
 # Contributing
 
-Two audiences: mathematicians who want to check something, and the maintainer of the archive.
+Two parts: how to review an exploration, and how I add one.
 
 ## Reviewing an exploration
 
@@ -34,7 +34,7 @@ exploration page is updated to point at them.
 
 Three things that do **not** move an exploration to *Verified*:
 
-- the maintainer reading it and finding it plausible;
+- my reading it and finding it plausible;
 - computational evidence in small cases, including checks run by the AI itself;
 - the absence of objections.
 
@@ -42,7 +42,7 @@ Every status other than *Unverified* must cite the issue, document or formalisat
 supports it, in the *Verification record* table of the exploration page. Status can move in
 both directions; the table keeps the history.
 
-## Adding an exploration (maintainer)
+## Adding an exploration
 
 1. Copy [`explorations/_template/`](explorations/_template/) to
    `explorations/NNN-short-slug/`, with `NNN` the next number.

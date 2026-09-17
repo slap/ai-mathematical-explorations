@@ -1,13 +1,13 @@
 # Original AI output
 
 Everything below the line is reproduced as produced, unedited. The conversation was in
-Spanish; English translations of the two prompts are marked as such and were added here by the
-curator. Nothing else was added, and nothing inside a quoted message was altered, shortened or
+Spanish; the English translations of the two prompts are marked as such and were added by me.
+Nothing else was added, and nothing inside a quoted message was altered, shortened or
 reordered.
 
 **Session.** Claude Opus 5 (`claude-opus-5`), Anthropic, through Claude Code, 16 September
-2026, in a working directory of the curator's own project on subresultants and the
-Casas–Alvero conjecture.
+2026, in the working directory of my project on subresultants and the Casas–Alvero
+conjecture.
 
 **What is not included.** The earlier turns of the same session, in which the AI read and
 commented on Ghosh's preprint as a whole and listed the places where it would look for errors.

@@ -9,8 +9,8 @@ code or data under an exploration directory.
 
 Released into the public domain under
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode), to the extent that any
-rights exist in it at all. The point is the same one the repository makes everywhere else: no
-authorship over this mathematics is claimed, so no conditions are attached to reusing it. Use
+rights exist in it at all. The point is the same one the repository makes everywhere else: I
+claim no authorship over this mathematics, so no conditions are attached to reusing it. Use
 it, rewrite it, publish a corrected version, prove it wrong — no permission needed and no
 attribution required by law.
 
@@ -19,7 +19,7 @@ Scholarly practice still asks that you say where something came from. See below.
 ## Curatorial material — CC BY 4.0
 
 Everything written for the archive rather than by the AI: this file, `README.md`,
-`CONTRIBUTING.md`, the prose written by the curator on each exploration page, and `tools/`.
+`CONTRIBUTING.md`, the prose I write on each exploration page, and `tools/`.
 
 Licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribution here is for
 the curation — the selection, description and framing — never for the mathematics.
@@ -35,8 +35,10 @@ Cite the origin, not an author:
 The three roles this keeps apart:
 
 - **the AI system** produced the mathematical content;
-- **Santiago Laplagne** set the research context and made the material public — he is the
-  compiler of the archive, not an author of its results;
+- **I** set the research context and made the material public — I am the compiler of the
+  archive, not an author of its results. The research that prompts these questions is often
+  joint work with colleagues, but the exchanges with the AI systems are mine, and nothing here
+  is theirs or is published on their behalf;
 - **anyone who later verifies, refutes or develops** an exploration is credited on its page
   and in the issue that records the work, and holds whatever rights their own work carries.
 

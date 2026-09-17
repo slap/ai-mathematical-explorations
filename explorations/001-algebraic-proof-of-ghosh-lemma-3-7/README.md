@@ -5,14 +5,15 @@
 **Area:** Commutative Algebra / Algebraic Geometry \
 **Date:** 2026-09-16 \
 **AI system:** Claude Opus 5 (Anthropic), model claude-opus-5 — via Claude Code \
-**Curator:** Santiago Laplagne
+**Published by:** Santiago Laplagne
 <!-- meta:end -->
 
 **Research context.** The exploration came out of a project on subresultant formulas without
-denominators, which led to the Casas–Alvero conjecture and, from there, to a reading of
-Ghosh's preprint [*Proof of the Casas–Alvero conjecture*, arXiv:2501.09272] (v2, March 2026).
-Asked whether anything in that preprint could be simplified, the AI pointed at its Lemma 3.7 —
-the single place where the argument leaves algebra for topology — and then produced this note.
+denominators, part of ongoing work with colleagues, which led to the Casas–Alvero conjecture
+and, from there, to a reading of Ghosh's preprint [*Proof of the Casas–Alvero conjecture*,
+arXiv:2501.09272] (v2, March 2026). When I asked whether anything in that preprint could be
+simplified, the AI pointed at its Lemma 3.7 — the single place where the argument leaves
+algebra for topology — and then produced this note.
 
 ### Summary
 

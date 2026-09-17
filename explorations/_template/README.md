@@ -8,6 +8,9 @@
 **Published by:** Santiago Laplagne
 <!-- meta:end -->
 
+📄 **[Read the document (PDF)](exploration.pdf)** · [LaTeX source](source.tex) ·
+[original AI output](ai-output.md)
+
 <!--
   TEMPLATE — not an exploration. Copy this directory, fill it in, then run
   `python tools/build_index.py`, which rewrites the block above from metadata.yml
@@ -15,12 +18,14 @@
   Keep the sections below; delete the comments as you go.
 -->
 
-**Research context.** Why this question came up: the project it belongs to, what was asked,
-what the AI was working on at the time. Two or three sentences.
-
 ### Summary
 
 Two to five lines, in plain terms: what the document claims and why it might be of interest.
+
+### Research context
+
+Why this question came up: the project it belongs to, what was asked, what the AI was working
+on at the time. Two or three sentences.
 
 ### The mathematical claim
 
@@ -42,7 +47,7 @@ first.
 | --- | --- | --- | --- |
 | YYYY-MM-DD | 🟠 Unverified | — | published as generated |
 
-### Documents
+### Files
 
 - [exploration.pdf](exploration.pdf) — the document
 - [source.tex](source.tex) — LaTeX source, with any editorial changes listed in its header

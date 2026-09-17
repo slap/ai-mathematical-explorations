@@ -8,12 +8,8 @@
 **Published by:** Santiago Laplagne
 <!-- meta:end -->
 
-**Research context.** The exploration came out of a project on subresultant formulas without
-denominators, part of ongoing work with colleagues, which led to the Casas–Alvero conjecture
-and, from there, to a reading of Ghosh's preprint [*Proof of the Casas–Alvero conjecture*,
-arXiv:2501.09272] (v2, March 2026). When I asked whether anything in that preprint could be
-simplified, the AI pointed at its Lemma 3.7 — the single place where the argument leaves
-algebra for topology — and then produced this note.
+📄 **[Read the note (PDF, 3 pages)](exploration.pdf)** · [LaTeX source](source.tex) ·
+[original AI output](ai-output.md) · [computations](computations/)
 
 ### Summary
 
@@ -23,6 +19,15 @@ analytic ingredient of the preprint and takes about three pages. The note claims
 point where the lemma is actually used — inside a downward induction, where the conjecture is
 already assumed in degree *n*+1 — the statement follows from the projective dimension theorem
 in a few lines, with no topology and no hypothesis on the characteristic.
+
+### Research context
+
+The exploration came out of a project on subresultant formulas without denominators, part of
+ongoing work with colleagues, which led to the Casas–Alvero conjecture and, from there, to a
+reading of Ghosh's preprint [*Proof of the Casas–Alvero conjecture*,
+arXiv:2501.09272] (v2, March 2026). When I asked whether anything in that preprint could be
+simplified, the AI pointed at its Lemma 3.7 — the single place where the argument leaves
+algebra for topology — and then produced this note.
 
 ### The mathematical claim
 
@@ -66,7 +71,7 @@ Points a reader might go to first:
 | --- | --- | --- | --- |
 | 2026-09-17 | 🟠 Unverified | — | published as generated |
 
-### Documents
+### Files
 
 - [exploration.pdf](exploration.pdf) — the note, 3 pages
 - [source.tex](source.tex) — LaTeX source, with the editorial changes listed in its header

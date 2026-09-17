@@ -14,12 +14,15 @@
 ### Summary
 
 For the generic polynomial `f = x^d + a_1 x^{d-1} + … + a_{d-1} x`, let `R_i` be the resultant
-of `f` with its *i*-th Hasse derivative. Schaub–Spivakovsky proved that `R_i` is not in the
-radical of the remaining `R_j` for the three top indices, by an indirect argument about real
-roots. The note claims the same for **every** index, by exhibiting explicit degenerate
-witnesses, and draws three consequences: no Casas–Alvero condition is redundant, the
-conjecture reduces to a statement about every irreducible component of one variety, and every
-membership certificate over ℚ is constrained along `d-1` explicit lines.
+of `f` with its *i*-th Hasse derivative. Schaub and Spivakovsky (arXiv:2312.08742, Theorem 5)
+proved that `R_i ∉ √(R_j : j ≠ i)` for the three highest indices, `i ∈ {d-3, d-2, d-1}`, by an
+indirect argument about real roots.
+
+**The AI-generated note published here** claims the same for **every** index
+`i ∈ {1,…,d-1}`, by exhibiting explicit degenerate witnesses, and draws three consequences:
+none of the `d-1` Casas–Alvero conditions is redundant; the conjecture reduces to a statement
+about every irreducible component of `V(R_j : j ≠ i)`; and every membership certificate over ℚ
+is constrained along `d-1` explicit lines.
 
 ### Research context
 

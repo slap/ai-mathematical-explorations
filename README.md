@@ -21,6 +21,7 @@ mathematical claims.
 | # | Exploration | Area | Status | Date |
 | --- | --- | --- | --- | --- |
 | [001](explorations/001-algebraic-proof-of-ghosh-lemma-3-7/) | An algebraic proof of Ghosh's Lemma 3.7 | Commutative Algebra / Algebraic Geometry | 🟠 Unverified | 2026-09-16 |
+| [002](explorations/002-non-redundancy-of-the-casas-alvero-conditions/) | Non-redundancy of the Casas–Alvero conditions | Commutative Algebra | 🟡 Partially verified | 2026-09-16 |
 <!-- index:end -->
 
 ## Status

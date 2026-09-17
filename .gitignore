@@ -1,0 +1,12 @@
+# LaTeX build products (the PDF itself is tracked)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+__pycache__/
+*.pyc
+.DS_Store

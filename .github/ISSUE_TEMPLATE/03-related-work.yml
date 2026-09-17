@@ -1,0 +1,40 @@
+name: Related work
+description: Point to existing literature: the result, a stronger one, or a close relative.
+title: "[001] Related work: "
+labels: ["related-work"]
+body:
+  - type: input
+    id: exploration
+    attributes:
+      label: Exploration
+      description: Number and title.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference
+      description: Full citation, with DOI or arXiv number if there is one.
+    validations:
+      required: true
+  - type: dropdown
+    id: relation
+    attributes:
+      label: Relation
+      options:
+        - The same result
+        - A stronger or more general result
+        - A special case, or a closely related statement
+        - Same technique, different problem
+        - Useful background
+    validations:
+      required: true
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison
+      description: >-
+        Where in the reference it appears, and how it lines up with the exploration —
+        hypotheses, generality, method.
+    validations:
+      required: true

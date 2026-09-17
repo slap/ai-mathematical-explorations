@@ -1,0 +1,16 @@
+name: Discussion
+description: Anything else — questions, suggestions, remarks on the archive itself.
+title: "Discussion: "
+labels: ["discussion"]
+body:
+  - type: input
+    id: exploration
+    attributes:
+      label: Exploration
+      description: Number and title, or leave blank if this is about the repository.
+  - type: textarea
+    id: body
+    attributes:
+      label: Comment
+    validations:
+      required: true

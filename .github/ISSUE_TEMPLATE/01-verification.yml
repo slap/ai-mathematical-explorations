@@ -1,0 +1,61 @@
+name: Verification / mathematical review
+description: Report a check of an argument, complete or partial.
+title: "[001] Verification: "
+labels: ["verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Partial checks are welcome. Say what you looked at and where you stopped.
+  - type: input
+    id: exploration
+    attributes:
+      label: Exploration
+      description: Number and title, e.g. 001 — An algebraic proof of Ghosh's Lemma 3.7.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim examined
+      description: The statement you checked, quoted or restated. Point to the section or page.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Proposed status
+      options:
+        - Verified — complete check of the main claim
+        - Partially verified — part of the argument checked
+        - Refuted — the claim fails
+        - Unchanged — inconclusive
+    validations:
+      required: true
+  - type: textarea
+    id: argument
+    attributes:
+      label: What you did
+      description: >-
+        The check itself: the reasoning, the computation, the formalisation. Enough detail for
+        a reader to follow it without redoing your work. LaTeX in code fences is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References used
+      description: Results you relied on, with precise citations.
+  - type: textarea
+    id: conclusion
+    attributes:
+      label: Conclusion
+      description: >-
+        What now holds, what remains open, and what the next reader should look at first.
+    validations:
+      required: true
+  - type: input
+    id: attribution
+    attributes:
+      label: How to credit you
+      description: Name and affiliation as you want them recorded on the exploration page, or leave blank.

@@ -1,0 +1,49 @@
+name: Counterexample / error
+description: Report an error in an argument, or a counterexample to a claim.
+title: "[001] Error: "
+labels: ["error"]
+body:
+  - type: input
+    id: exploration
+    attributes:
+      label: Exploration
+      description: Number and title.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: Section, lemma, page or line, as precisely as you can.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The error or counterexample
+      description: >-
+        What goes wrong: the invalid step, the missing hypothesis, or explicit data that
+        contradicts the claim.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Effect on the main claim
+      options:
+        - The main claim is false
+        - The proof is broken, the claim may still hold
+        - A gap that needs an argument
+        - Minor or editorial
+    validations:
+      required: true
+  - type: textarea
+    id: repair
+    attributes:
+      label: Possible repair
+      description: If you see one — extra hypothesis, weaker statement, alternative argument.
+  - type: input
+    id: attribution
+    attributes:
+      label: How to credit you
+      description: Name and affiliation as you want them recorded, or leave blank.

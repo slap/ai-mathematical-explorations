@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How verification status works
+    url: https://github.com/slap/ai-mathematical-explorations/blob/main/CONTRIBUTING.md#verification-status
+    about: What it takes to move an exploration out of "Unverified".

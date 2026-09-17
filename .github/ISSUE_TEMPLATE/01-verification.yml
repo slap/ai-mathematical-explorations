@@ -1,6 +1,6 @@
 name: Verification / mathematical review
 description: Report a check of an argument, complete or partial.
-title: "[001] Verification: "
+title: "[NNN] Verification: "
 labels: ["verification"]
 body:
   - type: markdown
@@ -11,7 +11,7 @@ body:
     id: exploration
     attributes:
       label: Exploration
-      description: Number and title, e.g. 001 — An algebraic proof of Ghosh's Lemma 3.7.
+      description: Number and title, e.g. 002 — Non-redundancy of the Casas–Alvero conditions.
     validations:
       required: true
   - type: textarea

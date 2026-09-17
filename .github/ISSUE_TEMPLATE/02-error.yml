@@ -1,6 +1,6 @@
 name: Counterexample / error
 description: Report an error in an argument, or a counterexample to a claim.
-title: "[001] Error: "
+title: "[NNN] Error: "
 labels: ["error"]
 body:
   - type: input

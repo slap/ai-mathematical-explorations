@@ -1,0 +1,9 @@
+(1) evaluacion en testigos explicitos
+    d=3   i=1:ok  i=2:ok
+
+(2) test de radical por Groebner:  1 en (R_j : j != i) + (1 - y R_i) ?
+    d=3   i=1:no pertenece  i=2:no pertenece
+    d=4   i=1:no pertenece  i=2:no pertenece  i=3:no pertenece
+    d=5   i=1:no pertenece  i=2:no pertenece  i=3:no pertenece  i=4:no pertenece
+
+TODO OK

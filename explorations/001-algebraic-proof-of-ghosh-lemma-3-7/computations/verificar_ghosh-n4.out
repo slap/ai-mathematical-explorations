@@ -1,0 +1,5 @@
+n = 4 (grado d = 5): test del Lema 3.7 de Ghosh
+  casos (l, j_l, j_{l+1..n}): 780
+  F(l,j_l) NO esta en el radical de los posteriores: 780/780
+  cubiertos por testigos explicitos (Obs. 3.8(1), |{j_{l+1..n}}| <= l): 180/780 (23%)
+  -> el Lema 3.7 se verifica en todos los casos de este grado

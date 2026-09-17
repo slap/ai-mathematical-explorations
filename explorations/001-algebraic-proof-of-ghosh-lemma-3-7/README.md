@@ -1,7 +1,7 @@
 <!-- meta:start -->
 # An algebraic proof of Ghosh's Lemma 3.7
 
-**Status:** 🟠 Unverified \
+**Status:** 🔴 Refuted \
 **Area:** Commutative Algebra / Algebraic Geometry \
 **Date:** 2026-09-16 \
 **AI system:** Claude Opus 5 (Anthropic), model claude-opus-5 — via Claude Code \
@@ -10,6 +10,13 @@
 
 📄 **[Read the note (PDF, 3 pages)](exploration.pdf)** · [LaTeX source](source.tex) ·
 [original AI output](ai-output.md) · [computations](computations/)
+
+> [!WARNING]
+> **Refuted (2026-09-17).** The note's second claim — that the conditional lemma proved here
+> can stand in for Lemma 3.7 in the preprint — does not hold: what the argument actually needs
+> at the point of use does not follow from it. With that claim goes the point of the note,
+> which was to remove the preprint's only topological ingredient. See *Verification status*.
+> The page is kept as part of the record.
 
 ### Summary
 
@@ -47,31 +54,37 @@ cutting with the remaining *l*−1 forms would leave `V₊(F_1,…,F_n)` non-emp
 
 A second claim accompanies it: that this **conditional** version suffices to replace Lemma 3.7
 in the preprint, because the lemma is used only through Corollary 3.9, itself invoked only
-inside Section 4.2, where (H) is the inductive hypothesis 4.1.1.
+inside Section 4.2, where (H) is the inductive hypothesis 4.1.1. **This is the claim that
+fails**, and it is what the note was for; see below.
 
 ### Verification status
 
-> The result has not been independently verified. The arguments should be regarded as
-> conjectural until checked.
+> Refuted. The reduction the note depends on does not work: what Section 4.2 of the preprint
+> actually needs does not follow from the conditional lemma proved here.
 
-What exists so far is evidence produced by the same AI system, which does not count as
-verification: symbolic computations in SageMath confirming (H) and the conclusion of the lemma
-for *d* = 4 and *d* = 5, and showing the dimension bound is sharp. The scripts are in
-[`computations/`](computations/) and the printed output is in the record.
+When this was published, the first thing a reader was asked to check was the second claim —
+that the conditional version suffices to replace Lemma 3.7, since the lemma reaches Section 4.2
+only through Corollary 3.9, and the note itself asked the author of the preprint to confirm it
+(Remark, §3). That is the step that was checked, and it failed: the statement required at the
+point of use is stronger than `F_l ∉ √(F_{l+1},…,F_n)` under (H), and does not follow from it.
 
-Points a reader might go to first:
+What this leaves standing is the conditional lemma and its half-page proof, which is not where
+the error is. But the lemma was only of interest as a replacement for the three pages of
+Abel–Gontcharoff polynomials and Brouwer degree, and it does not replace them. Ghosh's Lemma
+3.7, and the analytic ingredient with it, stand as written; the preprint is untouched by this.
 
-- the second claim — that the conditional lemma suffices — rests on tracing cross-references
-  in the preprint, and the note itself asks for the author to confirm it (Remark, §3);
-- the note asserts the argument holds in any characteristic, while the reformulation it relies
-  on is quoted from the preprint; the scope of that proposition is worth checking;
-- the dimension count in the last step of the proof, where the *l*−1 remaining cuts are made.
+The SageMath computations in [`computations/`](computations/) are unaffected and equally
+inconsequential: they confirm (H) and the conclusion of the conditional lemma for *d* = 4 and
+*d* = 5, and were never evidence for the claim that failed. Two questions raised at publication
+— the behaviour in positive characteristic and the dimension count in the last step — were
+never resolved, and no longer matter to anything.
 
 ### Verification record
 
 | Date | Status | By | Reference |
 | --- | --- | --- | --- |
 | 2026-09-17 | 🟠 Unverified | — | published as generated |
+| 2026-09-17 | 🔴 Refuted | S. Laplagne | the reduction to Corollary 3.9 fails; see above |
 
 ### Files
 
@@ -82,9 +95,8 @@ Points a reader might go to first:
 
 ### Community
 
-Open an [issue](../../../../issues/new/choose) if you can check the argument or any step of
-it, find an error or a counterexample, know of prior work where this or a stronger statement
-appears, or can improve or generalise the proof. Partial checks are useful; see
-[CONTRIBUTING.md](../../CONTRIBUTING.md).
-
-The natural addressee of the second claim is the author of the preprint, and the note says so.
+The page stays up refuted rather than deleted: a note that looked like it removed the only
+analytic ingredient of a proof of the Casas–Alvero conjecture, and did not, is part of what
+this archive is for. Open an [issue](../../../../issues/new/choose) if the refutation itself is
+wrong, or if the conditional lemma — which is not what failed — is useful for something else.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md).

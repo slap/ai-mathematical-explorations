@@ -2,6 +2,8 @@
 *.aux
 *.log
 *.out
+# computation output is part of the record, not a build product
+!explorations/*/computations/*.out
 *.toc
 *.synctex.gz
 *.fls

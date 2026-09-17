@@ -20,7 +20,7 @@ mathematical claims.
 <!-- index:start -->
 | # | Exploration | Area | Status | Date |
 | --- | --- | --- | --- | --- |
-| [001](explorations/001-algebraic-proof-of-ghosh-lemma-3-7/) | An algebraic proof of Ghosh's Lemma 3.7 | Commutative Algebra / Algebraic Geometry | 🟠 Unverified | 2026-09-16 |
+| [001](explorations/001-algebraic-proof-of-ghosh-lemma-3-7/) | An algebraic proof of Ghosh's Lemma 3.7 | Commutative Algebra / Algebraic Geometry | 🔴 Refuted | 2026-09-16 |
 | [002](explorations/002-non-redundancy-of-the-casas-alvero-conditions/) | Non-redundancy of the Casas–Alvero conditions | Commutative Algebra | 🟡 Partially verified | 2026-09-16 |
 <!-- index:end -->
 
@@ -72,7 +72,7 @@ case or a missing hypothesis all change what the next reader should look at.
 Each exploration is self-contained in its own directory:
 
 ```
-explorations/001-.../
+explorations/NNN-.../
     README.md        what it claims, its status, its provenance
     metadata.yml     structured record, used to build the index above
     exploration.pdf  the document

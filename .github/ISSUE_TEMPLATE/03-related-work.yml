@@ -1,6 +1,6 @@
 name: Related work
 description: Point to existing literature: the result, a stronger one, or a close relative.
-title: "[001] Related work: "
+title: "[NNN] Related work: "
 labels: ["related-work"]
 body:
   - type: input

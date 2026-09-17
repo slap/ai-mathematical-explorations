@@ -13,12 +13,14 @@
 
 ### Summary
 
-Ghosh proves his Lemma 3.7, an existence statement for "almost counterexamples", using
-Abel–Gontcharoff polynomials and the topological Brouwer degree over ℂ; this is the only
-analytic ingredient of the preprint and takes about three pages. The note claims that at the
-point where the lemma is actually used — inside a downward induction, where the conjecture is
-already assumed in degree *n*+1 — the statement follows from the projective dimension theorem
-in a few lines, with no topology and no hypothesis on the characteristic.
+Ghosh (arXiv:2501.09272, v2) proves his Lemma 3.7, an existence statement for "almost
+counterexamples", using Abel–Gontcharoff polynomials and the topological Brouwer degree over
+ℂ; this is the only analytic ingredient of his preprint and takes about three pages.
+
+**The AI-generated note published here** claims that at the point where the lemma is actually
+used — inside a downward induction, where the conjecture is already assumed in degree *n*+1 —
+the statement follows from the projective dimension theorem in a few lines, with no topology
+and no hypothesis on the characteristic.
 
 ### Research context
 

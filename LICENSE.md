@@ -36,9 +36,7 @@ The three roles this keeps apart:
 
 - **the AI system** produced the mathematical content;
 - **I** set the research context and made the material public — I am the compiler of the
-  archive, not an author of its results. The research that prompts these questions is often
-  joint work with colleagues, but the exchanges with the AI systems are mine, and nothing here
-  is theirs or is published on their behalf;
+  archive, not an author of its results;
 - **anyone who later verifies, refutes or develops** an exploration is credited on its page
   and in the issue that records the work, and holds whatever rights their own work carries.
 

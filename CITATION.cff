@@ -17,9 +17,8 @@ abstract: >-
   listed here selected the problems, provided the research context and made the material
   public; the mathematical content was produced by the AI systems and is published unverified.
   No authorship of these mathematical results is claimed, and they have not all been
-  independently verified. The exchanges with the AI systems and the decision to publish are
-  not attributable to those collaborators. Each exploration records its provenance and its
-  current verification status.
+  independently verified. Each exploration records its provenance and its current
+  verification status.
 repository-code: "https://github.com/slap/ai-mathematical-explorations"
 license:
   - CC-BY-4.0

@@ -12,7 +12,7 @@ reordered.
 them — in which the model laid out the four lines of work, wrote the verification scripts,
 ran them under SymPy and SageMath and reported what came out. Those scripts and their raw
 output are in [`computations/`](computations/), and the development they record is summarised
-in the paper itself (§11). Tool calls (file writes, shell commands, WSL runs) are omitted;
+in the note itself (§11). Tool calls (file writes, shell commands, WSL runs) are omitted;
 their results are kept where the AI quotes them. Local file paths were removed with them:
 one survived in the header of `sage_verification.py` and was shortened to
 `/mnt/c/.../research-subresultantes/...`. Also not included are the later turns of the same

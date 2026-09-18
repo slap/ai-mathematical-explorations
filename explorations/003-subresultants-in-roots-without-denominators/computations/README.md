@@ -2,7 +2,7 @@
 
 SymPy and SageMath scripts written by the AI system in the same session, kept under their
 original names and unedited except for one local path (see below). They are the evidence
-behind §11 of the paper: they test the statements in the cases listed there, which is not a
+behind §11 of the note: they test the statements in the cases listed there, which is not a
 verification of the proofs. See the exploration page.
 
 | File | What it does |

@@ -1,0 +1,79 @@
+=== (a) validacion punta a punta contra el subresultante clasico ===
+  (a) d1=2 d2=2 k=1 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=2 d2=2 k=1 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=2 k=1 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=2 k=1 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=3 k=1 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=3 k=1 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=3 k=2 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=3 k=2 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=3 k=2 j=2 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=3 k=2 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=3 k=2 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=3 k=2 j=2 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=2 d2=4 k=1 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=2 d2=4 k=1 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=4 k=2 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=4 k=2 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=3 d2=4 k=2 j=2 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=4 k=2 j=0 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=4 k=2 j=1 : S_k^(j) clasico == DKS/P_S  ->  True
+  (a) d1=4 d2=4 k=2 j=2 : S_k^(j) clasico == DKS/P_S  ->  True
+
+=== (b) forma Hankel/Toeplitz (Pade) del coeficiente principal ===
+  (b) d1=1 d2=1 k=0 : S_k^(k) == - b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=1 k=1 : S_k^(k) == + b_{d2}^{0} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=2 k=0 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=2 k=1 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=3 k=0 : S_k^(k) == - b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=3 k=1 : S_k^(k) == + b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=4 k=0 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=1 d2=4 k=1 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=1 k=0 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=1 k=1 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=2 k=0 : S_k^(k) == + b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=2 k=1 : S_k^(k) == - b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=2 k=2 : S_k^(k) == + b_{d2}^{0} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=3 k=0 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=3 k=1 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=3 k=2 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=4 k=0 : S_k^(k) == + b_{d2}^{6} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=4 k=1 : S_k^(k) == - b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=2 d2=4 k=2 : S_k^(k) == + b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=1 k=0 : S_k^(k) == - b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=1 k=1 : S_k^(k) == + b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=2 k=0 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=2 k=1 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=2 k=2 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=3 k=0 : S_k^(k) == - b_{d2}^{6} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=3 k=1 : S_k^(k) == + b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=3 k=2 : S_k^(k) == - b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=3 k=3 : S_k^(k) == + b_{d2}^{0} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=4 k=0 : S_k^(k) == + b_{d2}^{7} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=4 k=1 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=4 k=2 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=3 d2=4 k=3 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=1 k=0 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=1 k=1 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=2 k=0 : S_k^(k) == + b_{d2}^{6} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=2 k=1 : S_k^(k) == - b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=2 k=2 : S_k^(k) == + b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=3 k=0 : S_k^(k) == + b_{d2}^{7} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=3 k=1 : S_k^(k) == + b_{d2}^{5} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=3 k=2 : S_k^(k) == + b_{d2}^{3} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=3 k=3 : S_k^(k) == + b_{d2}^{1} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=4 k=0 : S_k^(k) == + b_{d2}^{8} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=4 k=1 : S_k^(k) == - b_{d2}^{6} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=4 k=2 : S_k^(k) == + b_{d2}^{4} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=4 k=3 : S_k^(k) == - b_{d2}^{2} det(Toeplitz c)  ->  OK
+  (b) d1=4 d2=4 k=4 : S_k^(k) == + b_{d2}^{0} det(Toeplitz c)  ->  OK
+  signos observados: [-1, 1]
+
+=== (c) coeficientes del Teorema C como Schur sesgadas ===
+  (c) d1=3 d2=3 t=4 S=(1,)       Gamma=[1] : 3/3 subconjuntos F predichos por 'mu ⊆ lambda + columnas <= d1' -> OK
+  (c) d1=2 d2=3 t=3 S=(2,)       Gamma=[2] : 4/4 subconjuntos F predichos por 'mu ⊆ lambda + columnas <= d1' -> OK
+  (c) d1=3 d2=3 t=3 S=(0, 1)     Gamma=[1, 0] : 3/3 subconjuntos F predichos por 'mu ⊆ lambda + columnas <= d1' -> OK
+  (c) d1=4 d2=4 t=5 S=(0, 2)     Gamma=[2, 0] : 6/6 subconjuntos F predichos por 'mu ⊆ lambda + columnas <= d1' -> OK
+  (c) d1=2 d2=5 t=3 S=(0, 1)     Gamma=[4, 1, 0] : 20/20 subconjuntos F predichos por 'mu ⊆ lambda + columnas <= d1' -> OK
+
+======== TODO OK ========

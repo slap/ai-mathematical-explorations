@@ -1,0 +1,107 @@
+
+=== d1=2 d2=2 t=2 t*=2 k=1 S=(0,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a1 + a2*x1 + a2*x2
+  (C2) expansion de Schur (Cauchy-Binet): True   [2 terminos]
+        s_(0, 0)  *  (a1)
+        s_(1, 0)  *  (a2)
+  (C3) determinante multi-Schur         : OK (+)
+  [0.0 s]
+
+=== d1=3 d2=3 t=4 t*=4 k=1 S=(1,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = -a0*a1 - a0*a2*x1 - a0*a2*x2 - a0*a2*x3 - a0*a3*x1**2 - a0*a3*x1*x2 - a0*a3*x1*x3 - a0*a3*x2**2 - a0*a3*x2*x3 - a0*a3*x3**2 - a1*a3*x1*x2*x3 + a2**2*x1*x2*x3 + a2*a3*x1**2*x2*x3 + a2*a3*x1*x2**2*x3 + a2*a3*x1*x2*x3**2 + a3**2*x1**2*x2**2*x3 + a3**2*x1**2*x2*x3**2 + a3**2*x1*x2**2*x3**2
+  (C2) expansion de Schur (Cauchy-Binet): True   [6 terminos]
+        s_(0, 0, 0)  *  (-a0*a1)
+        s_(1, 0, 0)  *  (-a0*a2)
+        s_(2, 0, 0)  *  (-a0*a3)
+        s_(1, 1, 1)  *  (-a1*a3 + a2**2)
+        s_(2, 1, 1)  *  (a2*a3)
+        s_(2, 2, 1)  *  (a3**2)
+  (C3) determinante multi-Schur         : OK (+)
+  [0.3 s]
+
+=== d1=2 d2=3 t=3 t*=3 k=1 S=(0,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = -a0*a2 + a1**2 + a1*a2*x1 + a1*a2*x2 + a1*a2*x3 + a2**2*x1*x2 + a2**2*x1*x3 + a2**2*x2*x3
+  (C2) expansion de Schur (Cauchy-Binet): True   [3 terminos]
+        s_(0, 0, 0)  *  (-a0*a2 + a1**2)
+        s_(1, 0, 0)  *  (a1*a2)
+        s_(1, 1, 0)  *  (a2**2)
+  (C3) determinante multi-Schur         : OK (+)
+  [0.1 s]
+
+=== d1=2 d2=3 t=3 t*=3 k=1 S=(2,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a0**2 - a0*a2*x1*x2 - a0*a2*x1*x3 - a0*a2*x2*x3 - a1*a2*x1*x2*x3
+  (C2) expansion de Schur (Cauchy-Binet): True   [3 terminos]
+        s_(0, 0, 0)  *  (a0**2)
+        s_(1, 1, 0)  *  (-a0*a2)
+        s_(1, 1, 1)  *  (-a1*a2)
+  (C3) determinante multi-Schur         : OK (-)
+  [0.1 s]
+
+=== d1=4 d2=4 t=5 t*=5 k=2 S=(0, 2) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a0*a3 + a0*a4*x1 + a0*a4*x2 + a0*a4*x3 + a0*a4*x4 - a1*a2 - a1*a3*x1 - a1*a3*x2 - a1*a3*x3 - a1*a3*x4 - a1*a4*x1**2 - a1*a4*x1*x2 - a1*a4*x1*x3 - a1*a4*x1*x4 - a1*a4*x2**2 - a1*a4*x2*x3 - a1*a4*x2*x4 - a1*a4*x3**2 - a1*a4*x3*x4 - a1*a4*x4**2 - a2*a4*x1*x2*x3 - a2*a4*x1*x2*x4 - a2*a4*x1*x3*x4 - a2*a4*x2*x3*x4 + a3**2*x1*x2*x3 + a3**2*x1*x2*x4 + a3**2*x1*x3*x4 + a3**2*x2*x3*x4 + a3*a4*x1**2*x2*x3 + a3*a4*x1**2*x2*x4 + a3*a4*x1**2*x3*x4 + a3*a4*x1*x2**2*x3 + a3*a4*x1*x2**2*x4 + a3*a4*x1*x2*x3**2 + 3*a3*a4*x1*x2*x3*x4 + a3*a4*x1*x2*x4**2 + a3*a4*x1*x3**2*x4 + a3*a4*x1*x3*x4**2 + a3*a4*x2**2*x3*x4 + a3*a4*x2*x3**2*x4 + a3*a4*x2*x3*x4**2 + a4**2*x1**2*x2**2*x3 + a4**2*x1**2*x2**2*x4 + a4**2*x1**2*x2*x3**2 + 2*a4**2*x1**2*x2*x3*x4 + a4**2*x1**2*x2*x4**2 + a4**2*x1**2*x3**2*x4 + a4**2*x1**2*x3*x4**2 + a4**2*x1*x2**2*x3**2 + 2*a4**2*x1*x2**2*x3*x4 + a4**2*x1*x2**2*x4**2 + 2*a4**2*x1*x2*x3**2*x4 + 2*a4**2*x1*x2*x3*x4**2 + a4**2*x1*x3**2*x4**2 + a4**2*x2**2*x3**2*x4 + a4**2*x2**2*x3*x4**2 + a4**2*x2*x3**2*x4**2
+  (C2) expansion de Schur (Cauchy-Binet): True   [6 terminos]
+        s_(0, 0, 0, 0)  *  (a0*a3 - a1*a2)
+        s_(1, 0, 0, 0)  *  (a0*a4 - a1*a3)
+        s_(2, 0, 0, 0)  *  (-a1*a4)
+        s_(1, 1, 1, 0)  *  (-a2*a4 + a3**2)
+        s_(2, 1, 1, 0)  *  (a3*a4)
+        s_(2, 2, 1, 0)  *  (a4**2)
+  (C3) determinante multi-Schur         : OK (+)
+  [3.8 s]
+
+=== d1=2 d2=5 t=3 t*=4 k=2 S=(0, 1) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a2**2
+  (C2) expansion de Schur (Cauchy-Binet): True   [1 terminos]
+        s_(0, 0, 0, 0, 0)  *  (a2**2)
+  (C3) determinante multi-Schur         : OK (+)
+  [8.2 s]
+
+=== d1=5 d2=2 t=4 t*=4 k=2 S=(1, 4) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = x1*x2*(x1**2 + x1*x2 + x2**2)
+  (C2) expansion de Schur (Cauchy-Binet): True   [1 terminos]
+        s_(3, 1)  *  (1)
+  (C3) determinante multi-Schur         : OK (+)
+  [0.0 s]
+
+=== d1=3 d2=4 t=5 t*=5 k=1 S=(2,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a0**2*a1 + a0**2*a2*x1 + a0**2*a2*x2 + a0**2*a2*x3 + a0**2*a2*x4 + a0**2*a3*x1**2 + a0**2*a3*x1*x2 + a0**2*a3*x1*x3 + a0**2*a3*x1*x4 + a0**2*a3*x2**2 + a0**2*a3*x2*x3 + a0**2*a3*x2*x4 + a0**2*a3*x3**2 + a0**2*a3*x3*x4 + a0**2*a3*x4**2 + a0*a1*a3*x1*x2*x3 + a0*a1*a3*x1*x2*x4 + a0*a1*a3*x1*x3*x4 + a0*a1*a3*x2*x3*x4 - a0*a2**2*x1*x2*x3 - a0*a2**2*x1*x2*x4 - a0*a2**2*x1*x3*x4 - a0*a2**2*x2*x3*x4 - a0*a2*a3*x1**2*x2*x3 - a0*a2*a3*x1**2*x2*x4 - a0*a2*a3*x1**2*x3*x4 - a0*a2*a3*x1*x2**2*x3 - a0*a2*a3*x1*x2**2*x4 - a0*a2*a3*x1*x2*x3**2 - 2*a0*a2*a3*x1*x2*x3*x4 - a0*a2*a3*x1*x2*x4**2 - a0*a2*a3*x1*x3**2*x4 - a0*a2*a3*x1*x3*x4**2 - a0*a2*a3*x2**2*x3*x4 - a0*a2*a3*x2*x3**2*x4 - a0*a2*a3*x2*x3*x4**2 - a0*a3**2*x1**2*x2**2*x3 - a0*a3**2*x1**2*x2**2*x4 - a0*a3**2*x1**2*x2*x3**2 - a0*a3**2*x1**2*x2*x3*x4 - a0*a3**2*x1**2*x2*x4**2 - a0*a3**2*x1**2*x3**2*x4 - a0*a3**2*x1**2*x3*x4**2 - a0*a3**2*x1*x2**2*x3**2 - a0*a3**2*x1*x2**2*x3*x4 - a0*a3**2*x1*x2**2*x4**2 - a0*a3**2*x1*x2*x3**2*x4 - a0*a3**2*x1*x2*x3*x4**2 - a0*a3**2*x1*x3**2*x4**2 - a0*a3**2*x2**2*x3**2*x4 - a0*a3**2*x2**2*x3*x4**2 - a0*a3**2*x2*x3**2*x4**2 + a1**2*a3*x1*x2*x3*x4 - a1*a2**2*x1*x2*x3*x4 - a1*a2*a3*x1**2*x2*x3*x4 - a1*a2*a3*x1*x2**2*x3*x4 - a1*a2*a3*x1*x2*x3**2*x4 - a1*a2*a3*x1*x2*x3*x4**2 - a1*a3**2*x1**2*x2**2*x3*x4 - a1*a3**2*x1**2*x2*x3**2*x4 - a1*a3**2*x1**2*x2*x3*x4**2 - a1*a3**2*x1*x2**2*x3**2*x4 - a1*a3**2*x1*x2**2*x3*x4**2 - a1*a3**2*x1*x2*x3**2*x4**2 + a3**3*x1**2*x2**2*x3**2*x4**2
+  (C2) expansion de Schur (Cauchy-Binet): True   [10 terminos]
+        s_(0, 0, 0, 0)  *  (a0**2*a1)
+        s_(1, 0, 0, 0)  *  (a0**2*a2)
+        s_(2, 0, 0, 0)  *  (a0**2*a3)
+        s_(1, 1, 1, 0)  *  (a0*(a1*a3 - a2**2))
+        s_(2, 1, 1, 0)  *  (-a0*a2*a3)
+        s_(2, 2, 1, 0)  *  (-a0*a3**2)
+        s_(1, 1, 1, 1)  *  (a0*a2*a3 + a1**2*a3 - a1*a2**2)
+        s_(2, 1, 1, 1)  *  (a3*(a0*a3 - a1*a2))
+        s_(2, 2, 1, 1)  *  (-a1*a3**2)
+        s_(2, 2, 2, 2)  *  (a3**3)
+  (C3) determinante multi-Schur         : OK (+)
+  [31.3 s]
+
+=== d1=1 d2=3 t=2 t*=2 k=1 S=(0,) ===
+  (C1) division exacta por Vandermonde  : True
+  (C1) cociente simetrico en las raices : True
+  cociente P_S = a1**2
+  (C2) expansion de Schur (Cauchy-Binet): True   [1 terminos]
+        s_(0, 0, 0)  *  (a1**2)
+  (C3) determinante multi-Schur         : OK (+)
+  [0.0 s]
+
+================ TODO OK ================

@@ -1,0 +1,34 @@
+
+=== d1=2 d2=2 t=2 S=(0,)   multiplicidades=[2] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=3 d2=3 t=4 S=(1,)   multiplicidades=[2, 1] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=3 d2=3 t=4 S=(1,)   multiplicidades=[3] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=2 d2=3 t=3 S=(0,)   multiplicidades=[2, 1] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=2 d2=3 t=3 S=(2,)   multiplicidades=[3] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=4 d2=4 t=5 S=(0, 2)   multiplicidades=[2, 2] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=4 d2=4 t=5 S=(0, 2)   multiplicidades=[3, 1] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+=== d1=3 d2=4 t=5 S=(2,)   multiplicidades=[2, 1, 1] ===
+  division exacta en el caso confluente : True
+  |O^conf|/V^conf  ==  P_S(raices con multiplicidad) : True
+
+================ TODO OK ================
